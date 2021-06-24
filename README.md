@@ -8,4 +8,5 @@
  2. The header #include "UMatineeCameraShake.h" has been added to cpp files needing access to it.
  3. Additional code comments 
  4. Additional debug options about health and actor destruction. 
+ 5. Batch files for advanced debugging and easy access. 
  
