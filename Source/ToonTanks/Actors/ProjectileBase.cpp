@@ -16,8 +16,6 @@ AProjectileBase::AProjectileBase()
 	ParticleTrail = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("Trail Particle"));
 	ParticleTrail->SetupAttachment(RootComponent);
 	
-	MovementSpeed = 1300.0f;
-	Damage = 10.0f;
 	ProjectileMovement->InitialSpeed = MovementSpeed;
 	ProjectileMovement->MaxSpeed = MovementSpeed;
 	

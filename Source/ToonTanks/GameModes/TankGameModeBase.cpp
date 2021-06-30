@@ -5,10 +5,7 @@
 #include "ToonTanks/PlayerControllers/PlayerControllerBase.h"
 
 ATankGameModeBase::ATankGameModeBase()
-{
-	TargetTurrets = 0;
-	StartDelay = 3;
-}
+{}
 
 void ATankGameModeBase::BeginPlay()
 {

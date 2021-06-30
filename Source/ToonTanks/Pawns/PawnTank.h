@@ -35,9 +35,9 @@ private:
 
 	// Variables
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement", meta = (AllowPrivateAccess = "true"))
-	float MoveSpeed;
+	float MoveSpeed = 100.f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Rotation", meta = (AllowPrivateAccess = "true"))
-	float RotateSpeed;
+	float RotateSpeed = 100.f;
 	APlayerController* PlayerControllerRef;
 	bool bIsPlayerAlive;
 	FVector MoveDirection;

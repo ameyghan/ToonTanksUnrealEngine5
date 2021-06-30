@@ -24,9 +24,9 @@ protected:
 private:
 	// Variables
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat", meta = (AllowPrivateAccess = "true"))
-	float FireRate;
+	float FireRate = 2.0f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat", meta = (AllowPrivateAccess = "true"))
-	float FireRange;
+	float FireRange = 500.f;
 	
 	FTimerHandle FireRateTimerHandle;
 	APawnTank* PlayerPawn;

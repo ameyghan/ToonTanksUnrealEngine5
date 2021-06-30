@@ -11,9 +11,6 @@ APawnTank::APawnTank()
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(SpringArm);
 	bIsPlayerAlive = true;
-
-	MoveSpeed = 100.0f;
-	RotateSpeed = 100.0f;
 }
 
 // Called when the game starts or when spawned

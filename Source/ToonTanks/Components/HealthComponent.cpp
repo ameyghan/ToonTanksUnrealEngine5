@@ -6,8 +6,6 @@
 UHealthComponent::UHealthComponent()
 {
 	PrimaryComponentTick.bCanEverTick = false;
-	DefaultHealth = 100.0f;
-	Health = 0.0f;
 }
 
 void UHealthComponent::BeginPlay()

@@ -3,10 +3,7 @@
 #include "PawnTank.h"
 
 APawnTurret::APawnTurret()
-{
-	FireRate = 2.0f;
-	FireRange = 500.0f;
-}
+{}
 
 void APawnTurret::Tick(float DeltaTime)
 {

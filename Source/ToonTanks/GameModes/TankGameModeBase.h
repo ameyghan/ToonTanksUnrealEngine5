@@ -25,7 +25,7 @@ protected:
 
 	// Variables
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Game Loop")
-	int32 StartDelay;
+	int32 StartDelay = 3;
 	
 	// Will be implemented in Blueprints. Will not be defined in C++
 	UFUNCTION(BlueprintImplementableEvent)

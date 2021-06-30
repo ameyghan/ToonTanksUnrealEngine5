@@ -30,12 +30,12 @@ private:
 	UParticleSystemComponent* ParticleTrail;
 	
 	// Variables
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Movement", meta = (AllowPrivateAccess = "true"))
+	float MovementSpeed = 1300.f;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Damage", meta = (AllowPrivateAccess = "true"))
+	float Damage = 10.f;
 	UPROPERTY(EditDefaultsOnly, Category = "Damage")
 	TSubclassOf<UDamageType> DamageType;
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Movement", meta = (AllowPrivateAccess = "true"))
-	float MovementSpeed;
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Damage", meta = (AllowPrivateAccess = "true"))
-	float Damage;
 	
 	// Effects
 	UPROPERTY(EditAnywhere, Category = "Effects")
