@@ -63,5 +63,5 @@ void ATankGameModeBase::ActorDied(AActor* DeadActor)
 			HandleGamveOver(true);
 		}
 	}
-	UE_LOG(LogTemp, Warning, TEXT("%s Died"), *DeadActor->GetName());
+	UE_LOG(LogTemp, Warning, TEXT("%s died"), *DeadActor->GetName());
 }
