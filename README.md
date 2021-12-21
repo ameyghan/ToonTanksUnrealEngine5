@@ -4,7 +4,7 @@
 
  The changes to this version: 
 
- 1. UMatineeCameraShake has its own class so it is forward declared in all header files that need access to to remove the compiler error for pointer to incomplete class types.
+ 1. In UE 5 UMatineeCameraShake has its own class so it is forward declared in all header files that need access to to remove the compiler error for pointer to incomplete class types.
  2. The header #include "UMatineeCameraShake.h" has been added to cpp files needing access to it.
  3. Removed the deprecated camera shake function and added the correct camera shake for the new version of Unreal Engine 
     GetWorld()->GetFirstPlayerController()->ClientStartCameraShake(...);
